@@ -1,0 +1,75 @@
+
+table {width: 100%;
+	table-layout: fixed;
+	font-size: medium;
+}
+@media screen and (max-width: 100%) {
+	table {
+		overflow-x: auto;
+	}
+}
+
+h1 {
+		color: #000000;
+		text-align:  center;
+	}
+.img{
+		width: 15%;
+		height: auto;
+ 
+	}
+
+div {text-align: center;}
+
+h1 {
+	overflow-x: auto;
+	text-align: center;}
+h2 {
+	font-size: 2vw;
+	text-align: center;
+	margin: 2px;
+}	
+p {
+	font-size: 0.77vw;
+  }
+p.except{
+		text-align: left;
+		margin:0px;
+	}
+p.name{text-align: center;
+		margin: 0px;}
+p.mass{text-align: right;
+		margin: 0px;}
+p.num{text-align: left;
+		margin: 0px;}
+
+td.non-metal{
+	background:#18b225;
+	}
+td.noble-gas{
+	background:#36d8db;
+	}
+td.alkali-metal{
+	background:#ea8644;
+	}
+td.alkaline-earth-metal{
+	background:#c4400b;
+	}
+td.metalloid{
+	background:#b59736;
+	}
+td.halogen{
+	background:#f9e75e;
+	}
+td.metal{
+	background:#8f9b99;
+	}
+td.transition-metal{
+	background:#aed35d;
+	}
+td.lanthanide{
+	background:#ef92e0;
+	}
+td.actinide{
+	background:#b14ff2;
+	}
