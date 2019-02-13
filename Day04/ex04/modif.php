@@ -8,5 +8,6 @@
 				exit("OK\n"); 
 			}
 	}
+	header('Location: index.html');
 	echo "ERROR\n";
 ?>
