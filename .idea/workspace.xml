@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b01207-b23d-4cd5-bab9-e23d1093a7dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Day00/ex01/mendeleiev.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day00/ex01/mendeleiev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day09/ex00.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day09/ex00.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day09/ex00.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,19 +16,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day07/ex06/Fighter.class.php">
+        <entry file="file://$PROJECT_DIR$/Day09/ex01/ex01.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day00/ex01/mendeleiev.html">
+        <entry file="file://$PROJECT_DIR$/Day09/ex01/ex01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="175" column="49" selection-start-line="175" selection-start-column="49" selection-end-line="175" selection-end-column="49" />
+            <state relative-caret-position="270">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day09/ex01/ex01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -45,12 +57,15 @@
         <option value="$PROJECT_DIR$/test_star/ex00.js" />
         <option value="$PROJECT_DIR$/test_star/ex00.html" />
         <option value="$PROJECT_DIR$/Day00/ex01/mendeleiev.html" />
+        <option value="$PROJECT_DIR$/Day09/ex01/ex01.css" />
+        <option value="$PROJECT_DIR$/Day09/ex01/ex01.js" />
+        <option value="$PROJECT_DIR$/Day09/ex01/ex01.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1036" />
-    <option name="y" value="36" />
+    <option name="x" value="1298" />
+    <option name="y" value="160" />
     <option name="width" value="1295" />
     <option name="height" value="1195" />
   </component>
@@ -102,7 +117,19 @@
             <path>
               <item name="Days" type="b2602c69:ProjectViewProjectNode" />
               <item name="Days" type="462c0819:PsiDirectoryNode" />
-              <item name="test_star" type="462c0819:PsiDirectoryNode" />
+              <item name="Day09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Days" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Days" type="462c0819:PsiDirectoryNode" />
+              <item name="Day09" type="462c0819:PsiDirectoryNode" />
+              <item name="ex00" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Days" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Days" type="462c0819:PsiDirectoryNode" />
+              <item name="Day09" type="462c0819:PsiDirectoryNode" />
+              <item name="ex01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -112,6 +139,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -137,12 +165,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556794302624</updated>
-      <workItem from="1556794315916" duration="8688000" />
+      <workItem from="1556794315916" duration="12858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8688000" />
+    <option name="totallyTimeSpent" value="12858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -154,7 +182,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1036" y="36" width="1295" height="1195" extended-state="0" />
+    <frame x="1298" y="160" width="1295" height="1195" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -246,14 +274,35 @@
     <entry file="file://$PROJECT_DIR$/Day07/ex06/Fighter.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day00/ex01/mendeleiev.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="175" column="49" selection-start-line="175" selection-start-column="49" selection-end-line="175" selection-end-column="49" />
+        <state relative-caret-position="404">
+          <caret line="151" column="89" selection-start-line="151" selection-start-column="89" selection-end-line="151" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day09/ex01/ex01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day09/ex01/ex01.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day09/ex01/ex01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
