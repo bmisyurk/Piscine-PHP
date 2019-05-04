@@ -3,7 +3,7 @@ table {width: 100%;
 	table-layout: fixed;
 	font-size: medium;
 }
-@media screen and (max-width: 100%) {
+@media screen and (max-width:100%) {
 	table {
 		overflow-x: auto;
 	}

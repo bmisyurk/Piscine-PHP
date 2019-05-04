@@ -1,5 +1,20 @@
+@media screen and (max-width: 100%) {
+    table {
+        overflow-x: auto;
+    }
+}
+
 * {
     box-sizing: border-box;
+}
+body{
+    zoom:100%;
+}
+html, body{
+    font-size: 2vw;
+}
+h1 {
+    font-size: 3vw;
 }
 
 /* Remove margins and padding from the list */
@@ -8,18 +23,24 @@ ul {
     padding: 0;
 }
 
+li{
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
 /* Style the list items */
 ul li {
     cursor: pointer;
     position: relative;
-    padding: 12px 8px 12px 40px;
+    padding: 12px 60px 12px 60px;
+    list-style-type: none;
     background: #eee;
     font-size: 23px;
     font-family: monospace;
     transition: 0.1s;
-
     /* make the list items unselectable */
     user-select: none;
+    word-wrap: break-word;
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
@@ -27,6 +48,9 @@ ul li:nth-child(2n+1) {
     background: #f9f9f9;
 }
 
+ul li:last-child {
+    border-radius: 0 0 0.5em 0.5em ;
+}
 /* Darker background-color on hover */
 ul li:hover {
     background: #ddd;
@@ -62,9 +86,10 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
+    border-radius: 0.5em 0.5em 0 0;
     background-color: #15b1ea;
     padding: 30px 40px;
-    margin: 300px 0 0 0;
+    margin: 300px 250px 0 250px;
     color: white;
     text-align: center;
 }
@@ -85,22 +110,24 @@ input {
     padding: 10px;
     float: left;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 /* Style the "Add" button */
 .addBtn {
     padding: 10px;
     width: 20%;
-    background: #d9d9d9;
+    background: #f2ef30;
     color: #555;
     float: left;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 0;
+    border-radius: 15px;
+    margin-left: 8px;
 }
 
 .addBtn:hover {
-    background-color: #bbb;
+    background-color: #baef51;
 }
