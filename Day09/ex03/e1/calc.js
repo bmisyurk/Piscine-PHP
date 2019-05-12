@@ -13,8 +13,8 @@ $(document).ready(function() {
             console.log("Input any number to calc!");
         }
         else if (isNaN(n1) || isNaN(n2)){
-            alert("Check out input");
-            console.log("Check out input");
+            alert("Check out input!");
+            console.log("Check out input!");
         }
         else if ((op == '/' || op == '%') && parseInt(n2) == 0) {
             alert("Divide on 0!");
@@ -37,7 +37,6 @@ $(document).ready(function() {
                 case '%':
                     res = +n1 % +n2;
                     break;
-
             }
             alert(res);
             $('input').val('');
