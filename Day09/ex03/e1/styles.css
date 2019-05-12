@@ -1,0 +1,23 @@
+body {
+    padding: 20px;
+}
+
+input#n1{
+    margin-top: 12vw;
+    margin-left: 24vw;
+    font-size: 3vw;
+
+}
+#sign{
+    font-size: 40px;
+    text-align: center;
+}
+input#n2 {
+    font-size: 3vw;
+}
+.btn{
+    width: 144px;
+    height: 144px;
+    font-size: 3vw;
+
+}
