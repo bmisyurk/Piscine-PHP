@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #balloon {
+            background-color: red;
+            margin: auto;
+            margin-top: 300px;
+            display: block;
+            width: 200px;
+            height: 200px;
+            border-radius: 74%;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        var size = 200;
+        var color = ["red", "green", "blue"];
+        var it = 0;
+        $(document).ready(function() {
+            $('#balloon').click(increment);
+            $('#balloon').hover(decrement);
+        })
+        function increment() {
+            if (size > 420) {
+                size = 200;
+            }
+            else {
+                size += 10;
+            }
+            if (it < 2) {
+                it++;
+            }
+            else {
+                it = 0;
+            }
+            $('#balloon').css('backgroundColor', color[it]);
+            $('#balloon').css('width', size);
+            $('#balloon').css('height', size);
+        }
+        function decrement() {
+            if (size > 200) {
+                size -= 5;
+                if (it > 0) {
+                    it--;
+                }
+                else {
+                    it = 2;
+                }
+                console.log(it);
+                //$('#balloon').css('backgroundColor', color[it]);
+                $('#balloon').css('width', size);
+                $('#balloon').css('height', size);
+            }
+            else if(size == 200){
+                    it++;
+                    if(it == 2){
+                        $('#balloon').css('backgroundColor', color[it]);
+                        it = 0;
+                    }
+                    else {$('#balloon').css('backgroundColor', color[it]);}
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="balloon"></div>
+</body>
+</html>
